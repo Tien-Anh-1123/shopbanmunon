@@ -54,7 +54,7 @@ try {
                 $vnp_TmnCode = "CGXZLS0Z";
                 $vnp_HashSecret = "XNBCJFAKAZQSGTARRLGCHVZWCIOIGSHN";
                 $vnp_Url = "https://sandbox.vnpayment.vn/paymentv2/vpcpay.html";
-                $vnp_Returnurl = "https://munonchat.azurewebsites.net/MuNonChat/vnpay_return.php";
+                $vnp_Returnurl = "https://munonchat.azurewebsites.net/vnpay_return.php";
                 $vnp_apiUrl = "http://sandbox.vnpayment.vn/merchant_webapi/merchant.html";
                 $apiUrl = "https://sandbox.vnpayment.vn/merchant_webapi/api/transaction";
 
