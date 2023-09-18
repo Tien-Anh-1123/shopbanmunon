@@ -20,7 +20,7 @@ try {
                     $cart = $_SESSION['cart'];
                     $total_price = 0;
                     foreach ($cart as $each) {
-                        $total_price +=  $each['gia'] * $each['so_luong'];
+                        $total_price +=  $each['khuyen_mai'] * $each['so_luong'];
                     }
                     $content = "<h2>Bạn vừa đặt 1 đơn hàng từ MũNónChất</h2>
                             <h5>$total_price đ</h5>";
