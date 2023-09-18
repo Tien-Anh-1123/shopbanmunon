@@ -132,14 +132,6 @@
                         if ($_GET['vnp_ResponseCode'] == '00') {
                             echo "<span style='color:blue'>Thanh Toán Thành Công</span>";
                             unset($_SESSION['cart']);
-
-                            $content = "<h2>Bạn vừa đặt 1 đơn hàng từ Mũ Nón Chất</h2>";
-
-                            require_once('mail.php');
-                            $acc_mail = $_SESSION['email'];
-                            $name_customer = $_SESSION['name'];
-                            $title = "Thông báo của Mũ Nón Chất";
-                            sendmail($acc_mail, $name_customer, $title, $content);
                             unset($_SESSION['total']);
                         } else {
                             echo "<span style='color:red'>Thanh Toán Không Thành Công</span>";
